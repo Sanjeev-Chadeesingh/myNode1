@@ -1,3 +1,4 @@
 const notesFunction = require('./notes');
 
-notesFunction();
+const msg = notesFunction();
+console.log(msg);
