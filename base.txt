@@ -34,7 +34,13 @@ https://links.mead.io/nodecourse
 
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
 
-
-
+NPM
+    package manager
+    npm init - generates package.json   
+        -file that holds all dependencies and information about our app 
+        -then can npm install various dependencies
+            -generates node_modules
+            -package-lock.json  
+                -locked version of package manager
 
 

@@ -1,4 +1,5 @@
-const notesFunction = require('./notes');
+const getNotes = require('./notes');
 
-const msg = notesFunction();
+const msg = getNotes();
+
 console.log(msg);
