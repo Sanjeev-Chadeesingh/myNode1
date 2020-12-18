@@ -55,3 +55,6 @@ PROCESS.ARGV
             -first 2 always same
                 1-path to node on machine
                 2-path to present file
+    YARGS!
+        -npm package that makes parsing process.argv easier
+            -has options through flags: --help, --version 
