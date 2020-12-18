@@ -20,7 +20,7 @@ https://links.mead.io/nodecourse
     -node module system
         -require function is how we load things to use 
             -importing your own files
-                -modules (your .jsFiles; each .js file you create are scoped to themselves)
+                -modules (your .jsFiles; each .js file you create is scoped to itself)
                     -app.js can't load from utils.js, you have to explicitly export all the stuff you want to share from your file with the outside world
                         -this is module.exports = whatEver, which is available as the return value from when you require the file
                         -module.exports = require value elsewhere(?)
