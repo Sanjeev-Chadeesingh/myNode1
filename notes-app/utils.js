@@ -2,4 +2,6 @@ console.log('utils.js');
 
 const name = 'Jeeves';
 
-module.exports = name;
+const add = (x, y) => x + y;
+
+module.exports = add;
