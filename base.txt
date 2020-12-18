@@ -1,0 +1,35 @@
+https://links.mead.io/nodecourse
+*section 2    
+    -NodeJS is javascript on the server
+        -runtime environment
+    -runs in conjunction with V8
+    -series of methods used in Javascript that are in fact running C++ behind the scenes
+    -terminal command cls for clear
+    -repl run in terminal
+    -global is like window in the browser
+    -process is like document, gives you all the methods and properties available to run
+        -process.exit() gets you out of the javascript in the terminal
+    SUMMARY (2.5)
+    -nodejs is javascript on the server via the V8 chrome engine
+        -provides C++ bindings to V8, allows you to do things like access the file system
+    -(why nodejs?)
+        non-blocking I/O model (input output) `querying database for records `it can do other things while waiting (non-blocking)
+        -blocking: everything goes in order of steps, not moving to the next until the present is completed
+        -non-blocking: not waiting for responses, starts all processes, and runs them IN THE BACKGROUND, with processes running independently of each other
+*section 3
+    -node module system
+        -require function is how we load things to use 
+            -importing your own files
+                -modules (your .jsFiles; each .js file you create are scoped to themselves)
+                    -app.js can't load from utils.js, you have to explicitly export all the stuff you want to share from your file with the outside world
+                        -this is module.exports = whatEver, which is available as the return value from when you require the file
+                        -module.exports = require value elsewhere(?)
+            -importing NPM modules
+                -good common core functionality for apps
+                    -2 step process 
+                        -initalize npm within project (npm init)
+                        -install necessary modules
+                    -node modules  
+                        -if not there, run `npm install,` will use contents of two package.json's to make necessary module folder
+
+//////////////////////////////////REDUX//////////////////////////////////////////////////////////
