@@ -58,3 +58,5 @@ PROCESS.ARGV
     YARGS!
         -npm package that makes parsing process.argv easier
             -has options through flags: --help, --version 
+            -builderObject
+                -we can define all the options we want given commands to support
