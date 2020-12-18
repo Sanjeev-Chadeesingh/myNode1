@@ -40,7 +40,18 @@ NPM
         -file that holds all dependencies and information about our app 
         -then can npm install various dependencies
             -generates node_modules
+                -node generated directory
             -package-lock.json  
                 -locked version of package manager
+                -alongside regular package.json allows to delete node modules and re-add them 
+    global npm packages flag with -g (for gLOBAL)
+        -do not need to require in source files, like local npm packages 
 
+//////////////////////////////////REDUX//////////////////////////////////////////////////////////
 
+PROCESS.ARGV
+    -argument vector
+        -allows access for command line arguments, in array 
+            -first 2 always same
+                1-path to node on machine
+                2-path to present file
