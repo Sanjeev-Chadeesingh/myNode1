@@ -71,7 +71,23 @@ JSON!
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
 
 ADDING NOTES WITH YARGS+OTHER STUFF 
-    
-    
+
+    define addNote -> function responsible for adding a note
+        -takes in title+body
+
+    -in app.js, add new method for adding notes to the yargsObject for adding..in the handler! it will have the args from the addNote func, and pass necessary argv's  
+
+    -addNote needs to be able to add info to dataStore
+        -first need to load in existing notes w/ loadNotes 
+            -takes no args, returns array of notes 
+            -readWrite w/ parseStringify
+            -try+catch for error handling
+                -rW+pS in tryBlock
+                -err returns an empty array so we can load things into it to handle thrown error
+
+    -addNote-add a push for the data 
+
+    -make a saveNotes function for taking in the array of data
+
 
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////

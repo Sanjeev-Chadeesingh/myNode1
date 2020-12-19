@@ -22,7 +22,7 @@ yargs.command({
         }
     },
     handler: () => {
-        console.log('Adding Note!');
+        console.log('Adding notes!');
     }
 });
 

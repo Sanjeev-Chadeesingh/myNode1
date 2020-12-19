@@ -1,9 +1,9 @@
 const fs = require('fs');
 
-const getNotes = () => 'Your notes...';
+const getNotes = () => {
+    return 'Your notes...';
+} 
 
 
 
-module.exports = {
-    getNotes
-};
+module.exports = getNotes;
