@@ -72,15 +72,6 @@ JSON!
 
 ADDING NOTES WITH YARGS+OTHER STUFF 
     
-    -addNotes(title, body) func first
-        -get the note saved to the data store
-
-        -module.exports changed to object returning our newly made functions
-
-    -addNote put on handler within yargs command for addNote(argv.title, argv.body)
-
-    -loadNote function needed to work with existing data 
-        -returns an array of notes
-            -readWrite with parseStringify
+    
 
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
