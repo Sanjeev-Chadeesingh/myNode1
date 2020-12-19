@@ -67,3 +67,11 @@ JSON!
    -we need to turn our JS objects into strings, so fs can read and use them
         -const toBeJSON = JSON.stringify(notYetJSON);
         -JSON.parse() => takes in JSON data and returns it as a JS object
+
+//////////////////////////////////REDUX//////////////////////////////////////////////////////////
+
+ADDING NOTES WITH YARGS+OTHER STUFF 
+    -we're returning an empty array for error handling
+        -defensive code through try+catch method 
+
+//////////////////////////////////REDUX//////////////////////////////////////////////////////////

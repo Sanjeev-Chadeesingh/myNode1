@@ -14,10 +14,10 @@ const fs = require('fs');
 // const data = JSON.parse(dataJSON);
 // console.log(data.title);
 
-const newData = fs.readFileSync('1-json.json');
-const readableData = newData.toString();
-const changeableData = JSON.parse(readableData);
-changeableData.name = 'Sanjeev';
-changeableData.age = 36;
-const newJSON = JSON.stringify(changeableData);
+const dataBuffer = fs.readFileSync('1-json.json');
+const readableData = dataBuffer.toString();
+const JSData = JSON.parse(readableData);
+JSData.name = 'Andrew';
+JSData.age = 27;
+const newJSON = JSON.stringify(JSData);
 fs.writeFileSync('1-json.json', newJSON);

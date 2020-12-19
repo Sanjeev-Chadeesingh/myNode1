@@ -1,5 +1,7 @@
 const chalk = require('chalk');
 const validator = require('validator');
+const yargs = require('yargs');
+
 
 const toValidate = (str) => {
     if(validator.isEmail(str)) {
@@ -7,6 +9,6 @@ const toValidate = (str) => {
     } else {
         console.log(chalk.red(str + ' Failure!'));
     }
-}
+};
 
 module.exports = toValidate;
