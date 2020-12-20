@@ -94,5 +94,11 @@ ADDING NOTES WITH YARGS+OTHER STUFF
 
 NOTE ADDING/ YARGS
 
+1)addNote(title, body)
+2)module.exports = {} for multiples functions
+3)back to app.js to fix require for said multiples
+4)handler for add in app.js now calls method from notes.js
+5)
+
 
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
