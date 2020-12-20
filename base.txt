@@ -107,6 +107,11 @@ NOTE ADDING/ YARGS
 11)save data with reusable function called save notes 
 12)saveNotes goes into addNote, saving the notes 
 13)saveNotes stringifies notes and writes file to notes json of the new data 
+14)addNote to check if title already taken, preventing duplicate notes 
+15)array.filter to ensure no duplicates, alongside duplicateNotes array 
+16)move notesPush into a conditional after the filter, if duplicateNotes comes up as zero, notesPush works, if duplicateNotes gets a copyNote, no push to notes, console.log that the note has been taken 
+
+
 
 
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
