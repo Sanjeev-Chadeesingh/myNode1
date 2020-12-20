@@ -98,7 +98,11 @@ NOTE ADDING/ YARGS
 2)module.exports = {} for multiples functions
 3)back to app.js to fix require for said multiples
 4)handler for add in app.js now calls method from notes.js
-5)
+5)addNote adds note to data store via loading in existing notes without overriding, parse them, add to array, then add back to data store 
+6)loadNotes function for this, returns an array of notes, first put it into addNote as notes
+7)readWrite and parseStringify on loadNotes 
+8)try/catch statement for error handling/defensive code regarding loading notes 
+9) return an empty array in catch block, will not overwrite data 
 
 
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
