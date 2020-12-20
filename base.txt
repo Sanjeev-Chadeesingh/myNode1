@@ -102,7 +102,11 @@ NOTE ADDING/ YARGS
 6)loadNotes function for this, returns an array of notes, first put it into addNote as notes
 7)readWrite and parseStringify on loadNotes 
 8)try/catch statement for error handling/defensive code regarding loading notes 
-9) return an empty array in catch block, will not overwrite data 
+9)return an empty array in catch block, will not overwrite data 
+10)adding new note to the list with push method as object 
+11)save data with reusable function called save notes 
+12)saveNotes goes into addNote, saving the notes 
+13)saveNotes stringifies notes and writes file to notes json of the new data 
 
 
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
