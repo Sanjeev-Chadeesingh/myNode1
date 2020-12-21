@@ -111,6 +111,10 @@ NOTE ADDING/ YARGS
 15)array.filter to ensure no duplicates, alongside duplicateNotes array 
 16)move notesPush into a conditional after the filter, if duplicateNotes comes up as zero, notesPush works, if duplicateNotes gets a copyNote, no push to notes, console.log that the note has been taken 
 
+NOTE REMOVING/ YARGS
+1)loadNotes as notes
+2)
+
 
 
 
