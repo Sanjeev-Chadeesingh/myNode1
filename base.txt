@@ -116,6 +116,11 @@ NOTE REMOVING/ YARGS
 2)filter function that was beyond me!!
 
 
+NOTE ADDING
+    pretty simple, he used forEach and we used for...of
+
+NOTE READING
+
 
 
 
