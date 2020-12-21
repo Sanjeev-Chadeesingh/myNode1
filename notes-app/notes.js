@@ -22,11 +22,8 @@ const loadNotes = () => {
 
 const addNote = (title, body) => {
     const notes = loadNotes();
-    const duplicateNotes = notes.filter((note) => {
-        return note.title === title;
-    });
-
-    if(duplicateNotes.length === 0) {
+    const duplicateNote = notes.find((note) => note.title === title);
+    if(!duplicateNote) {
         notes.push({
             title,
             body 
