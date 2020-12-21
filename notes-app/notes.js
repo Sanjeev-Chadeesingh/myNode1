@@ -43,7 +43,13 @@ const removeNote = title => {
     const savedNotes = notes.filter((note) => {
         return note.title !== title;
     });
-    saveNotes(savedNotes);
+    if(notes.length > savedNotes.length) {
+        console.log(`${chalk.green.inverse('Note Removed')}`);
+        saveNotes(savedNotes);
+    } else {
+        console.log(`${chalk.red.inverse('No Note Found!')}`);
+    }
+    
 }
 
 module.exports = {

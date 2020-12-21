@@ -113,7 +113,8 @@ NOTE ADDING/ YARGS
 
 NOTE REMOVING/ YARGS
 1)loadNotes as notes
-2)
+2)filter function that was beyond me!!
+
 
 
 
