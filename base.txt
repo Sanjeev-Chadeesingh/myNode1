@@ -122,6 +122,19 @@ NOTE ADDING
 NOTE READING
     pretty simple!
 
+//////////////////////////////////REDUX//////////////////////////////////////////////////////////
+
+NODE DEBUGGING!!!
+-debugger
+    -add at specific points throughout program, pauses program at point is inserted 
+        -node --inspect-brk app.js add --title="debug again" --body="inspecting"
+        -open chrome://inspect
+            -open the executable path to our project, pause at debugger, check it out 
+    -errors
+        -start top down, first line has most detailed error line 
+
+
+
 
 
 
