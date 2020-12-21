@@ -120,6 +120,7 @@ NOTE ADDING
     pretty simple, he used forEach and we used for...of
 
 NOTE READING
+    pretty simple!
 
 
 
