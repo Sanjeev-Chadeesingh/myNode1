@@ -178,6 +178,8 @@ http://api.weatherstack.com/current?access_key=c0d42c0159b8f4878c0d13dcb95d5bf7&
             -2 args
                 1- options object outlining what we want to do
                 2- cBfunction to run once we have the response
+            
+            -add json:true to request options object
 
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
 
