@@ -188,6 +188,11 @@ http://api.weatherstack.com/current?access_key=c0d42c0159b8f4878c0d13dcb95d5bf7&
             -chain 2 request    
                 1- userAddress -> latLon -> weatherInAddress 
 
+    ERROR HANDLING
+        -error object used for lower level, OS things
+        -response object is more for specific servers working with userSide stuff 
+            -else if error statement needed on resObj 'else if(response.body.error) {}'
+
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
 
 
