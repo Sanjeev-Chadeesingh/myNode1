@@ -165,7 +165,7 @@ Asynchronous Node.JS
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
 
 HTTP REQUESTS
-weatherstack.com 
+weatherstack.com => temperature comes in celsius by default 
 apiKey - c0d42c0159b8f4878c0d13dcb95d5bf7
 search this in firefox! => raw data => 
 http://api.weatherstack.com/current?access_key=c0d42c0159b8f4878c0d13dcb95d5bf7&query=37.8267,-122.4233
@@ -180,6 +180,8 @@ http://api.weatherstack.com/current?access_key=c0d42c0159b8f4878c0d13dcb95d5bf7&
                 2- cBfunction to run once we have the response
             
             -add json:true to request options object in javascript form 
+        -Made first req and customized for challenge
+            -customized for farenheit, via url query string 
 
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
 
