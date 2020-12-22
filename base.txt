@@ -183,6 +183,11 @@ http://api.weatherstack.com/current?access_key=c0d42c0159b8f4878c0d13dcb95d5bf7&
         -Made first req and customized for challenge
             -customized for farenheit, via url query string 
 
+    GEOCODING
+        -address via latLon
+            -chain 2 request    
+                1- userAddress -> latLon -> weatherInAddress 
+
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
 
 
