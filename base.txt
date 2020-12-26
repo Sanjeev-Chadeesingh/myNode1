@@ -200,6 +200,8 @@ http://api.weatherstack.com/current?access_key=c0d42c0159b8f4878c0d13dcb95d5bf7&
             -function we provide as an argument to another function, that we call at some point in the future
             CB NOTES
                 -you get your return statement from running the callback with an argument doing what needs to be done 
+            WEATHER APP ASYNC   
+                -
 
 
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
