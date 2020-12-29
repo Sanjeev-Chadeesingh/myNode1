@@ -196,6 +196,7 @@ pk.eyJ1IjoiamVldmVzMDIxMCIsImEiOiJja2owYjl1dGsxZjRvMndteXZ0dDA2djhoIn0.eRQ_alaM_
         -error object used for lower level, OS things
         -response object is more for specific servers working with userSide stuff 
             -else if error statement needed on resObj 'else if(response.body.error) {}'
+            -BREAK SITES IN BROWSER AND SEE RESULT FOR UNDERSTANDING ON RESPONSE ERRORS
 
     ASYNC NODE 
         -return harder to work with when doing async functions

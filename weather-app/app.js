@@ -16,8 +16,14 @@ request({ url: url, json: true }, (error, response) => {
 const urlTwo = 'https://api.mapbox.com/geocoding/v5/mapbox.places/Orlando.json?access_token=pk.eyJ1IjoiamVldmVzMDIxMCIsImEiOiJja2owYjl1dGsxZjRvMndteXZ0dDA2djhoIn0.eRQ_alaM_Dt3ZFhCLxbbgg&limit=1';
 
 request({ url: urlTwo, json: true }, (error, response) => {
-    const data = response.body;
-    const latitude = data.features[0].center[1];
-    const longitude = data.features[0].center[0];
-    console.log(`Latitude: ${latitude}, Longitude: ${longitude}`);
+    if(error) {
+        console.log('Unable to connect to location service.');
+    } else if(response.body.features.length === 0) {
+        console.log('Unable to find location, check input.');
+    } else {
+        const data = response.body;
+        const latitude = data.features[0].center[1];
+        const longitude = data.features[0].center[0];
+        console.log(`Latitude: ${latitude}, Longitude: ${longitude}`);
+    }  
 });
