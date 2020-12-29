@@ -171,6 +171,10 @@ search this in firefox! => raw data =>
 http://api.weatherstack.com/current?access_key=c0d42c0159b8f4878c0d13dcb95d5bf7&query=37.8267,-122.4233
 ? demarcates query string of key/value pairs. join props with &
 
+
+mapbox api key
+pk.eyJ1IjoiamVldmVzMDIxMCIsImEiOiJja2owYjl1dGsxZjRvMndteXZ0dDA2djhoIn0.eRQ_alaM_Dt3ZFhCLxbbgg
+
     SKELETON FOR WEATHER
         -npm init -y
         -npm postman-request
