@@ -141,7 +141,7 @@ NODE DEBUGGING!!!
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
 
 Asynchronous Node.JS
-    -single threaded language, can onlly do one thing at a time
+    -single threaded language, can only do one thing at a time
         -callstack stack enforces via individual threads per layer
             -isn't completely single threaded   
                 -node uses other threads in c++ behind the scenes to manage our events. think how you run other things while a setTimeout with 2000 runs.  
@@ -154,7 +154,7 @@ Asynchronous Node.JS
 
     callstack- simple data structure provided by V8. Keeps track of all functions currently running. You can add something to the top, and if you want to remove something, it has to come from the top (think tennis tube).
     
-    callback queue- maintain a list of all callback functions waiting to be executed. all things run in a line here, start at the end of the line and work your way to the front (quasi-callstack). 
+    callback queue- maintains a list of all callback functions waiting to be executed. all things run in a line here, start at the end of the line and work your way to the front (quasi-callstack). 
     
     event loop- looks at two things: callstack and callback queue. if callstack empty, it runs items from callback queue. event loop waits for callstack to be empty before pushing things from cB queue to callstack. async cB's never run before the main()is done.
 
