@@ -173,7 +173,7 @@ http://api.weatherstack.com/current?access_key=c0d42c0159b8f4878c0d13dcb95d5bf7&
 
 
 mapbox api key
-pk.eyJ1IjoiamVldmVzMDIxMCIsImEiOiJja2owYjl1dGsxZjRvMndteXZ0dDA2djhoIn0.eRQ_alaM_Dt3ZFhCLxbbgg
+pk.eyJ1IjoiamVldmVzMDIxMCIsImEiOiJja2prN3BxNnYwNW52MnpwNG0xZDV5eDY4In0.PpIN8wuXpHPe_KV9qzgcHg
 
     SKELETON FOR WEATHER
         -npm init -y
