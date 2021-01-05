@@ -205,6 +205,13 @@ pk.eyJ1IjoiamVldmVzMDIxMCIsImEiOiJja2owYjl1dGsxZjRvMndteXZ0dDA2djhoIn0.eRQ_alaM_
             -function we provide as an argument to another function, that we call at some point in the future
             CB NOTES
                 -you get your return statement from running the callback with an argument doing what needs to be done 
+                -no return statement in geocode, only in setTimeout, which leads to the undefined
+                -define THEN call for info via CALLBACK
+                    -this is all due to the fact that there is no direct return value
+                    -callbacks let you return something from a nodeAPI
+                    -sync functions can use the return value
+                    -async takes what you want to return into the callback, and then you call it after making the function, with WHAT YOU WANT as the first argument
+                        -can think of async callbacks as a hack for return statements?
             WEATHER APP ASYNC   
                 -
 

@@ -1,10 +1,13 @@
 // setTimeout(() => {
-//     console.log('Two seconds are up!');
+//     console.log('2 seconds are up!');
 // }, 2000);
 
-// const names = ['Jeeves', 'Sam', 'Red', 'Shanti'];
+// const names = ['Sanjeev', 'Jen', 'Sue'];
 
-// const shortNames = names.filter((name) => name.length < 4);
+// const shortNames = names.filter((name) => {
+//     return name.length <= 4;
+// });
+
 // console.log(shortNames);
 
 // const geocode = (address, callback) => {
@@ -12,15 +15,14 @@
 //         const data = {
 //             latitude: 0,
 //             longitude: 0
-//         }
-//         callback(data)
-//     });
+//         };
+//         callback(data);
+//     }, 2000)
 // };
 
-// geocode('Philadelphia', (data) => {
+// geocode('Orlando', (data) => {
 //     console.log(data);
 // });
-
 
 //
 // Goal: Mess around with the callback pattern
@@ -34,8 +36,8 @@ const add = (x, y, callback) => {
     setTimeout(() => {
         callback(x + y);
     }, 2000)
-};
+}
 
 add(1, 4, (sum) => {
     console.log(sum) // Should print: 5
-});
+})
