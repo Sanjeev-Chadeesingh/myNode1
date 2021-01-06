@@ -197,6 +197,9 @@ pk.eyJ1IjoiamVldmVzMDIxMCIsImEiOiJja2prN3BxNnYwNW52MnpwNG0xZDV5eDY4In0.PpIN8wuXp
         -response object is more for specific servers working with userSide stuff 
             -else if error statement needed on resObj 'else if(response.body.error) {}'
             -BREAK SITES IN BROWSER AND SEE RESULT FOR UNDERSTANDING ON RESPONSE ERRORS
+                ONE OF TWO CHOICES
+                -error
+                -response
 
     ASYNC NODE 
         -return harder to work with when doing async functions
