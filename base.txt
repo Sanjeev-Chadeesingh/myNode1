@@ -216,7 +216,7 @@ pk.eyJ1IjoiamVldmVzMDIxMCIsImEiOiJja2prN3BxNnYwNW52MnpwNG0xZDV5eDY4In0.PpIN8wuXp
                     -async takes what you want to return into the callback, and then you call it after making the function, with WHAT YOU WANT as the first argument
                         -can think of async callbacks as a hack for return statements?
             WEATHER APP ASYNC   
-                -
+                -encodeURIComponent(address) in url to watch for special characters and let em fly 
 
 
 //////////////////////////////////REDUX//////////////////////////////////////////////////////////
