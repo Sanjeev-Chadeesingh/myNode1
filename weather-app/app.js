@@ -14,20 +14,7 @@ const url = 'http://api.weatherstack.com/current?access_key=c0d42c0159b8f4878c0d
 //     }
 // });
 
-// const geocodeURL = 'https://api.mapbox.com/geocoding/v5/mapbox.places/Los%20Angeles.json?access_token=pk.eyJ1IjoiamVldmVzMDIxMCIsImEiOiJja2prN3BxNnYwNW52MnpwNG0xZDV5eDY4In0.PpIN8wuXpHPe_KV9qzgcHg&limit=1';
 
-// request({ url: geocodeURL, json: true }, (error, response) => {
-//     if(error) {
-//         console.log(chalk.red('Unable to connect to location services.'));
-//     } else if(response.body.features.length === 0) {
-//         console.log(chalk.red('Unable to find location.'));
-//     } else {
-//         const longitude = response.body.features[0].center[0];
-//         const latitude = response.body.features[0].center[1];
-//         const location = response.body.features[0].text;
-//         console.log(`Location: ${location}. Latitude: ${latitude}. Longitude: ${longitude}.`);
-//     }
-// });
 
 
 
@@ -35,3 +22,20 @@ geocode('Boston', (error, data) => {
     console.log('Error', error);
     console.log('Data', data);
 });
+
+
+
+//
+// Goal: Create a reusable function for getting the forecast
+//
+// 1. Setup the "forecast" function in utils/forecast.js
+// 2. Require the function in app.js and call it as shown below
+// 3. The forecast function should have three potential calls to callback:
+//    - Low level error, pass string for error
+//    - Coordinate error, pass string for error
+//    - Success, pass forecast string for data (same format as from before)
+
+forecast(-75.7088, 44.1545, (error, data) => {
+    console.log('Error', error)
+    console.log('Data', data)
+  })
